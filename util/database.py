@@ -7,6 +7,6 @@ def get_db_connection():
         port=DATABASE['port'],
         user=DATABASE['mohan'],
         password=DATABASE['Mohan2005vitcc'],
-        dbname=DATABASE['cinema-db']
+        dbname=DATABASE['movieticket']
     )
     return connection
