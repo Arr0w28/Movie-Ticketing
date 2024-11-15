@@ -134,7 +134,7 @@ BEGIN
 
 END $$;
 
--- Add some indexes for better performance
+-- Add some indexes for better performanc
 CREATE INDEX IF NOT EXISTS idx_shows_movie_id ON shows(movie_id);
 CREATE INDEX IF NOT EXISTS idx_seats_show_id ON seats(show_id);
 CREATE INDEX IF NOT EXISTS idx_bookings_show_id ON bookings(show_id);
