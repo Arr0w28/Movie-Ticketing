@@ -3,5 +3,5 @@ DATABASE = {
     'port': 5432,  # Default PostgreSQL port
     'user': 'mohan',  # RDS username
     'password': 'Mohan2005vitcc',  # RDS password
-    'database': 'cinema-db'  # Your database name
+    'database': 'movieticket'  # Your database name
 }
