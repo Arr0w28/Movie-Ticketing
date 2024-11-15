@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS movies (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create shows table
+-- Create shows tabl
 CREATE TABLE IF NOT EXISTS shows (
     show_id SERIAL PRIMARY KEY,
     movie_id INTEGER REFERENCES movies(movie_id),
