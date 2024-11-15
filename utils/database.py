@@ -5,7 +5,7 @@ from utils.aws_config import DATABASE
 
 
 def get_db_connection():
-    # Access the database config for 'mohan'
+    # Access the database config for 'mohan
     config = DATABASE['mohan']
     conn = psycopg2.connect(
         host=config['movieticket.c3cwmaq8m96y.ap-south-1.rds.amazonaws.com'],
